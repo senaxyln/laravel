@@ -22,4 +22,4 @@ use App\Http\Controllers\PageController;
 Route::get('/about', [PageController::class, 'about']);
 Route::get('/home', [PageController::class, 'home']);
 
-Route::get('/', [CategoryController::class, 'index']);
+Route::get('/test', [CategoryController::class, 'index']);
